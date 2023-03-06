@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Mynerve&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+/* headings and logo */
+
+h1 {
+    font-family: Mynerve, sans-serif;
+    /* text-transform: uppercase; */
+    letter-spacing: 4px;
+    color: #3a3a3a;
+}
+
+#logo {
+    float: left;
+    font-size: 320%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 3px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+
+
+
+/* hero image and cover text */
+
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    /* overflow: hidden; */
+    clear: both;
+    position: relative;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/yoga-hero.jpg') no-repeat center center;
+}
+
+#cover-text {
+    font-family: 'Roboto';
+    text-transform: uppercase; 
+    letter-spacing: 1px;
+    color: white;
+    position: absolute;
+    width: 500px;
+    height: 280px;
+    left: 25px;
+    top: 200px;
+    margin-left: 20%;
+    text-align: right;
+    
+}
+
+#cover-text h2 {
+    font-size: 300%;
+}
+
+#cover-text h4 {
+    font-size: 150%;
+    
+}
+
+/* school about section */
+
+#about-school {
+    margin-top: 100px;
+
+}
+
+#about-school h2 {
+    font-size: 300%;
+    text-transform: uppercase; 
+    text-align: center;
+    letter-spacing: 1px;
+    color: #3a3a3a;
+    margin-left: 20px;
+}
+
+#about-school h3 {
+    font-size: 250%;
+    font-weight: 300;
+    text-transform: uppercase; 
+    text-align: left;
+    letter-spacing: 1px;
+    color: #3a3a3a;
+    margin-left: 20px;
+}
+
+#about-school p {
+    margin: 30px 20px 5px;
+    font-family: Lato;
+    font-style: italic;
+    text-align: justify;
+    clear: both;
+}
+
+#left-about {
+    float: left;
+    height: 600px;
+    width: 33%;
+    margin: 60px auto;
+}
+
+#left-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+#right-about {
+    float: right;
+    height: 600px;
+    width: 33%;
+    margin: 60px auto;
+}
+
+#right-about-heading {
+    width: 60%;
+    float: center;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+#center-about {
+    float: left;
+    height: 600px;
+    width: 33%;
+    margin: 60px auto;
+}
+
+#center-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 500px) {
+
+}
