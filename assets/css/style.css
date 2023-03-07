@@ -35,7 +35,7 @@ h1 {
 #menu {
     font-size: 110%;
     letter-spacing: 3px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 #menu, #logo {
@@ -113,12 +113,13 @@ h1 {
 }
 
 #about-school h2 {
-    font-size: 300%;
+    font-size: 400%;
     text-transform: uppercase; 
     text-align: center;
     letter-spacing: 1px;
     color: #3a3a3a;
     margin-left: 20px;
+    margin-bottom: 40px;
 }
 
 #about-school h3 {
@@ -141,13 +142,13 @@ h1 {
 
 #left-about {
     float: left;
-    height: 600px;
+    height: 200px;
     width: 33%;
     margin: 60px auto;
 }
 
 #left-about-heading {
-    width: 60%;
+    width: 100%;
     float: left;
     line-height: 20px;
     clear: both;
@@ -156,34 +157,84 @@ h1 {
 
 #right-about {
     float: right;
-    height: 600px;
+    height: 200px;
     width: 33%;
     margin: 60px auto;
 }
 
 #right-about-heading {
-    width: 60%;
+    width: 100%;
     float: center;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
 }
 
+#right-about a {
+    font-family: 'Lato';
+    color: #3a3a3a;
+
+}
 #center-about {
     float: left;
-    height: 600px;
+    height: 200px;
     width: 33%;
     margin: 60px auto;
 }
 
 #center-about-heading {
-    width: 60%;
+    width: 100%;
     float: left;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
 }
 
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    /* border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%; */
+    margin: 0 auto;
+}
+
+#left-picture-about {
+    background: url('../images/1666311259-small.jpg') no-repeat center center;
+    height: 300px;
+    width: 33%;
+    clear: both;
+    float: left;
+    /* border-radius: 50%; */
+}
+
+#center-picture-about {
+    background: url('../images/shutterstock_1591188538.jpg') no-repeat center center;
+    height: 300px;
+    width: 33%;
+    float: left;
+    /* border-radius: 50%; */
+}
+
+
+#right-picture-about {
+    background: url('../images/shutterstock_1820434592.jpg') no-repeat center center;
+    height: 300px;
+    width: 33%;
+    float: right;
+    /* border-radius: 50%; */
+}
+
+/* Newsletter */
+
+#newsletter {
+    height: 150px;
+    width: 100%;
+    background-color: #3a3a3a;
+    clear: both;
+}
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 500px) {
 
