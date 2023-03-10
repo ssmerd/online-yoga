@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Mynerve&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Mynerve&family=Roboto:wght@300;500&display=swap');
 
 * {
     margin: 0;
@@ -16,7 +16,6 @@ body {
 
 h1 {
     font-family: Mynerve, sans-serif;
-    /* text-transform: uppercase; */
     letter-spacing: 4px;
     color: #3a3a3a;
 }
@@ -35,7 +34,6 @@ h1 {
 #menu {
     font-size: 110%;
     letter-spacing: 3px;
-    font-family: 'Roboto', sans-serif;
 }
 
 #menu, #logo {
@@ -70,7 +68,6 @@ h1 {
 #hero-outer {
     height: 600px;
     width: 100%;
-    /* overflow: hidden; */
     clear: both;
     position: relative;
 }
@@ -82,7 +79,6 @@ h1 {
 }
 
 #cover-text {
-    font-family: 'Roboto';
     text-transform: uppercase; 
     letter-spacing: 1px;
     color: white;
@@ -98,10 +94,12 @@ h1 {
 
 #cover-text h2 {
     font-size: 300%;
+    font-weight: 500;
 }
 
 #cover-text h4 {
     font-size: 150%;
+    font-weight: 500;
     
 }
 
@@ -115,6 +113,7 @@ h1 {
 #about-school h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 400%;
+    font-weight: 400;
     text-transform: uppercase; 
     text-align: center;
     letter-spacing: 1px;
@@ -227,102 +226,87 @@ h1 {
     clear: both;
     position: relative;
 }
+
 .newsletter-form {
     top:5%;
     left: 25%;
     width: 50%;
     position: absolute;
 }
+
 .newsletter-form > h2 {
     color: white;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 250%;
+    font-weight: 300;
+    margin-bottom: 20px;
    
 }
 
 .text-input {
-    width: 35%;
-    height: 30px;
-    border: 1px solid #fafafa;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: large;
+    width: 45%;
     border-radius: 2px;
     padding: 10px 20px;
-    border: 1px solid #8f94a1;
-
 }
 
-.text-input:hover {
-    border-color: lightgray;
-}
 
 .join-button {
-    text-align: center;
-    font-size: 100%;
-    background-color: black;
-    color: #fafafa;
-    
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: large;
+        width: 45%;
+        border: none;
+        outline: none;
+        background: transparent;
+        background-color: black;
+        padding: 10px 20px;
+        color: white;
+        border-radius: 2px;
+        cursor: pointer;
 }
-/* 
-.form-section {
-    clear: left;
-    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-}
-
-.signup-form {
-    margin: 150px 10% 0 0;
-    color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
-    position: absolute;
-    left: 10%;
-    padding: 30px;
-}
-
-.signup-form > h2 {
-    color: #fafafa;
-    margin-bottom: 20px;
-}
-
-.text-input {
-    background: transparent;
-    color: #fafafa;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-}
-
-.text-input:hover {
-  border-color: #f16c6b;
-}
-
-.join-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
-    text-align: center;
-    font-size: 100%;
-    background-color:#f16c6b;
-    color: #fafafa;
-    display: block;
-    
-}
-
+   
 .join-button:hover {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
     text-align: center;
-    font-size: 100%;
-    background-color:#fafafa;
-    color: #f16c6b;
-    display: block;
-    
-} */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: large;
+    width:45%;
+    border: none;
+    outline: none;
+    background: transparent;
+    background-color: #112a45;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
 
 
 /* For larger to medium screens size from 1200px wide and down */
