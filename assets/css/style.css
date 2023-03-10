@@ -192,16 +192,6 @@ h1 {
     margin-bottom: 50px;
 }
 
-#circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    /* border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%; */
-    margin: 0 auto;
-}
 
 #left-picture-about {
     background: url('../images/1666311259-small.jpg') no-repeat center center;
@@ -209,7 +199,7 @@ h1 {
     width: 33%;
     clear: both;
     float: left;
-    /* border-radius: 50%; */
+ 
 }
 
 #center-picture-about {
@@ -217,7 +207,6 @@ h1 {
     height: 300px;
     width: 33%;
     float: left;
-    /* border-radius: 50%; */
 }
 
 
@@ -236,19 +225,44 @@ h1 {
     width: 100%;
     background-color: #3a3a3a;
     clear: both;
+    position: relative;
 }
-
-#newsletter-form label {
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
+.newsletter-form {
+    top:5%;
+    left: 25%;
+    width: 50%;
+    position: absolute;
+}
+.newsletter-form > h2 {
     color: white;
-    width: 100%;
-    line-height: 50px;
-    clear: both;
-  
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 250%;
+   
 }
 
+.text-input {
+    width: 35%;
+    height: 30px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 10px 20px;
+    border: 1px solid #8f94a1;
 
+}
+
+.text-input:hover {
+    border-color: lightgray;
+}
+
+.join-button {
+    text-align: center;
+    font-size: 100%;
+    background-color: black;
+    color: #fafafa;
+    
+}
+/* 
 .form-section {
     clear: left;
     background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
@@ -308,7 +322,7 @@ h1 {
     color: #f16c6b;
     display: block;
     
-}
+} */
 
 
 /* For larger to medium screens size from 1200px wide and down */
