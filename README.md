@@ -1,108 +1,130 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Yoga Online 
 
-Welcome ssmerd,
+## Introduction
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+A website designed to promote Yoga training online. It contains a main page with a link to E-learning website with Yoga lesson videos, a link to a future shop 
+(it doesn't exist for this project) and a page to sign up. If I wanted to further develop the website, I would require users to sign up first in order to see
+videos. I embeded a sample videos from youtube.com for project 1. However for the final website I would create my own videos and published them regularly.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+As the shop requires coding skills, I have done it. However, I could develop it to sell youga related artefacts to monitize on the website. Perhaps I will do it
+for new projects.
 
-## Gitpod Reminders
+![Responsive simulator image]()
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+[Project Repository](https://github.com/ssmerd/online-yoga)
 
-`python3 -m http.server`
+[Live Site]()
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+## Features
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Main page
 
-A blue button should appear to click: _Make Public_,
+* Navigation Bar
 
-Another blue button should appear to click: _Open Browser_.
+    * Featured on all pages, full responsive navigation bar includes the website logo and links to home, e-learning videos, shop and signup page. 
+    All these features are identical on all pages to allow for easy navigation.
+    * The navigation bar will allow users to esily navigate from page to page across all devices without having to revert back to the previous page via 'back' button
+    * Home link allow to easily revert to the home page
+    * E-learning link allow to see sample online yoga videos. Currenlty they are embeded from youtube.com.
+    * To use E-learning link a user would have to sign up first. Hence there is a link to the signup page.
+    * Shop link may revert to a online shop website to monitize on the website by selling youga artefacts
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Navigation Bar](assets/images/readme/Screenshot%202023-03-14%20at%2015.21.05.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+* The landing page
 
-------
+    * The landing page image includes a photograph with a text overlay to allow the user to learn what the page is about.
+    * This section introduces the user to Yoga Online explaining that the yoga videos are free for everyone and can be accessed from anywhere.
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![Landing Page](assets/images/readme/Screenshot%202023-03-14%20at%2015.30.05.png)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+* The about section
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+    * This section presents the goal of the website and some information about its owners.
+    * Its goal is to attract users to login, watch and shop on the website
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![Landing Page](assets/images/readme/Screenshot%202023-03-14%20at%2015.46.53.png)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+* Sign up for Newsletter section
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+    * The goal of this section is to allow user to sign up for the newsletter
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+![Landing Page](assets/images/readme/Screenshot%202023-03-14%20at%2015.55.18.png)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+* Footer section
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+    * The goal of this section is to redirect a user to social media channels related to the website.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![Landing Page](assets/images/readme/Screenshot%202023-03-14%20at%2015.58.42.png)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+E-Learning page
 
-## FAQ about the uptime script
+* Navigation bar as in the main page
 
-**Why have you added this script?**
+* Sample videos
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+    * Complete course of yoga. I have embeded a sample youtube videos.
 
-**How will this affect me?**
+![Landing Page](assets/images/readme/Screenshot%202023-03-14%20at%2016.03.26.png)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+* Sign Up page
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+    * This page allows users to sign up to the website in order to use videos
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+![Landing Page](assets/images/readme/Screenshot%202023-03-14%20at%2016.22.02.png)
 
-**So….?**
+* Shop page
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+    * It isn't implemented at this stage.
 
-**Can I opt out?**
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+## UX
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### Site Goals
 
-**Anything more?**
+The goal of the website is to attract users to watch yoga classes and buy some youga artefacts in the online shop (the shop doesn't exist yet).
+This website is easy to navigate as well as aesthetically pleasing. Administrator should be able to easily add videos. The youga classes should be 
+avaialable post signing up to the website.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### User stories
 
----
+As a user:
 
-Happy coding!
+* I want to watch yoga classes online
+* I want to sign up to the site
+* I want to log in to the site to watch videos
+* I want to access the shop to buy yoga artefacts
+
+As the site administrator:
+
+* I want to be able to add new videos
+* I want to update the website as little as possible
+
+
+
+
+## Wireframes
+
+
+Below are wireframes create for the proect
+
+* Main page
+
+![Main Page](assets/images/readme/Screenshot%202023-03-14%20at%2017.13.02.png)
+
+* Video page
+
+![Main Page](assets/images/readme/Screenshot%202023-03-14%20at%2017.39.01.png)
+
+* Video page
+
+![Sign Up](assets/images/readme/Screenshot%202023-03-14%20at%2017.56.58.png)
