@@ -1,6 +1,6 @@
 # Yoga Online 
 
-## Introduction
+# Introduction
 
 A website designed to promote Yoga training online. It contains a main page with a link to E-learning website with Yoga lesson videos, a link to a future shop 
 (it doesn't exist for this project) and a page to sign up. If I wanted to further develop the website, I would require users to sign up first in order to see
@@ -9,11 +9,13 @@ videos. I embeded a sample videos from youtube.com for project 1. However for th
 As the shop requires coding skills, I have done it. However, I could develop it to sell youga related artefacts to monitize on the website. Perhaps I will do it
 for new projects.
 
-![Responsive simulator image]()
+![Responsive simulator image](assets/images/readme/Screenshot%202023-03-15%20at%2016.13.57.png)
+![Responsive simulator image](assets/images/readme/Screenshot%202023-03-15%20at%2016.23.10.png)
+![Responsive simulator image](assets/images/readme/Screenshot%202023-03-15%20at%2016.13.57.png)
 
 [Project Repository](https://github.com/ssmerd/online-yoga)
 
-[Live Site]()
+[Live Site](https://ssmerd.github.io/online-yoga/)
 
 
 ## Features
@@ -87,7 +89,7 @@ E-Learning page
     * It isn't implemented at this stage.
 
 
-## UX
+# UX
 
 ### Site Goals
 
@@ -128,3 +130,92 @@ Below are wireframes create for the proect
 * Video page
 
 ![Sign Up](assets/images/readme/Screenshot%202023-03-14%20at%2017.56.58.png)
+
+
+# Testing
+
+* ### Functional testing
+
+| Test              | Outcome |
+|-------------------|---------------|
+|All navigation links take user to correct page|pass|
+|All external links open new, correct page|pass|
+|Footer navigation and social & social links load correct pages|pass|
+|Content reformats on smaller screens|pass|
+|Newsletter form submits correctly|pass|
+|Newlstter form prevents wrong data types|pass|
+
+
+* ### User and responsive design testing
+
+I thorouglhy tested the website and its responsivness with Google Inspect functionality and 
+    
+    https://ui.dev/amiresponsive?url=https://ssmerd.github.io/online-yoga/
+
+All user stories were tested and no faults were found. All links are working fine. The link to the Shop is redirecting to the code institute website.
+I used a sample youtube videos, however, in the real website I would use my own. Also to access the videos, a user would have to be signed up.
+Initially I had issues with reposnsivess but I managed to find css settings to make it look well.  This allowed me to adjust certain setings so the websites 
+looked good on different devices. 
+    
+* ### Code and CSS validators
+
+HTML and CSS validators were used to test the pages and css validity. No issues were found.
+
+
+## Deployment
+
+The yoga online page was deployed to GitHub. Below is the link:
+
+[Live Site](https://ssmerd.github.io/online-yoga/)
+
+
+# Citation of Sources
+
+* ### HTML and CSS 
+
+https://www.w3schools.com/
+
+https://stackoverflow.com/
+
+* ### Wireframes
+
+https://balsamiq.cloud
+
+* ### Responsivness testing
+https://ui.dev/amiresponsive
+
+Chrome Inspect
+
+* ### HTML and CSS validations
+
+https://w3c.github.io/developers/tools/
+
+* ### Fonts and icons
+
+https://fonts.google.com/
+
+* ### Media
+
+Photos used for the main and signup page come from:
+
+https://www.shutterstock.com/
+
+https://www.pexels.com/
+
+Videos in the E-learning page come from:
+
+https://www.youtube.com/results?search_query=yoga+with+adriene+
+
+
+# Future Featuers
+
+Access to the videos would be secured by logging to website. First a user would have to sign up. Currently I don't have skills to do that.
+
+I'd like to develop a shop selling yoga artefacts to monitize  the website. Currently I dont have skills to do that.
+
+Also I would add a link to a donate website.
+
+### <a name="acknowledge">Acknowledgements</a>
+
+* Mentor - Chris Quinn
+* Cohort Facilitator - Special credit to Alan Bushell who gave great support and tips when testing the website.

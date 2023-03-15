@@ -166,7 +166,7 @@ h1 {
 
 #right-about-heading {
     width: 100%;
-    float: center;
+    float: right;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
@@ -394,6 +394,12 @@ footer {
   'wght' 400,
   'GRAD' 0,
   'opsz' 48
+}
+
+#video-outer  {
+
+  text-align: center;
+    
 }
 
 
