@@ -122,20 +122,9 @@ h1 {
     margin-bottom: 40px;
 }
 
-#about-school h3 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 250%;
-    font-weight: 300;
-    text-transform: uppercase; 
-    text-align: left;
-    letter-spacing: 1px;
-    color: #3a3a3a;
-    margin-left: 20px;
-    margin-top: 20px;
-}
 
 #about-school p {
-    margin: 30px 20px 5px;
+    margin: 10px 10px 10px 10px;
     font-family: Lato;
     font-style: italic;
     text-align: justify;
@@ -144,9 +133,8 @@ h1 {
 
 #left-about {
     float: left;
-    height: 200px;
     width: 33%;
-    margin: 60px auto;
+    margin: 30px auto;
 }
 
 #left-about-heading {
@@ -154,14 +142,20 @@ h1 {
     float: left;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px;
-}
+    font-family: 'Roboto', sans-serif;
+    font-size: 250%;
+    font-weight: 300;
+    text-transform: uppercase; 
+    text-align: left;
+    letter-spacing: 1px;
+    color: #3a3a3a;
+    margin: 20px 0 50px 0;
+} 
 
 #right-about {
     float: right;
-    height: 200px;
     width: 33%;
-    margin: 60px auto;
+    margin: 30px auto;
 }
 
 #right-about-heading {
@@ -169,7 +163,14 @@ h1 {
     float: right;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 250%;
+    font-weight: 300;
+    text-transform: uppercase; 
+    text-align: left;
+    letter-spacing: 1px;
+    color: #3a3a3a;
+    margin: 20px 0 50px 0;
 }
 
 #right-about a {
@@ -179,9 +180,8 @@ h1 {
 }
 #center-about {
     float: left;
-    height: 200px;
     width: 33%;
-    margin: 60px auto;
+    margin: 30px auto;
 }
 
 #center-about-heading {
@@ -189,7 +189,14 @@ h1 {
     float: left;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 250%;
+    font-weight: 300;
+    text-transform: uppercase; 
+    text-align: left;
+    letter-spacing: 1px;
+    color: #3a3a3a;
+    margin: 20px 0 50px 0;
 }
 
 
@@ -215,7 +222,6 @@ h1 {
     height: 300px;
     width: 33%;
     float: right;
-    /* border-radius: 50%; */
 }
 
 /* Newsletter */
@@ -226,6 +232,8 @@ h1 {
     background-color: #3a3a3a;
     clear: both;
     position: relative;
+    top: 50px;
+
 }
 
 .newsletter-form {
@@ -296,6 +304,8 @@ footer {
 
 .social-networks {
     text-align: center;
+    position: relative;
+    top: 40px
 }
 
 .social-networks > li {
@@ -398,138 +408,143 @@ footer {
 
 #video-outer  {
 
-  text-align: center;
-    
+    text-align: center;
+}
+
+#video-outer > iframe {
+    width: 560px;
+    height: 315px;
 }
 
 
-@media screen and (max-width: 900px) {
+
+@media screen and (max-width: 1000px) {
    
-    #about-school h3 {
+    
+    #left-about {
+        float: unset;
+        height: 170px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+    #center-about {
+        float: unset;
+        height: 150px;
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    #right-about {
+        float:  unset;
+        height: 150px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #left-about-heading {
+        width: 100%;
+        float: left;
+        line-height: 20px;
+        clear: both;
         font-family: 'Roboto', sans-serif;
-        font-size: 200%;
+        font-size: 180%;
         font-weight: 300;
         text-transform: uppercase; 
         text-align: left;
         letter-spacing: 1px;
         color: #3a3a3a;
+        margin: 20px 0 30px 0;
+    } 
+
+    #right-about-heading {
+        width: 100%;
+        float: right;
+        line-height: 20px;
+        clear: both;
+        font-family: 'Roboto', sans-serif;
+        font-size: 180%;
+        font-weight: 300;
+        text-transform: uppercase; 
+        text-align: left;
+        letter-spacing: 1px;
+        color: #3a3a3a;
+        margin: 20px 0 30px 0;
+    }
+
+    #center-about-heading {
+        width: 100%;
+        float: left;
+        line-height: 20px;
+        clear: both;
+        font-family: 'Roboto', sans-serif;
+        font-size: 180%;
+        font-weight: 300;
+        text-transform: uppercase; 
+        text-align: left;
+        letter-spacing: 1px;
+        color: #3a3a3a;
+        margin: 20px 0 30px 0;
+    }
+
+
+
+    #left-picture-about {
+        background: unset;
+        height: 0px;
+    }
+
+    #center-picture-about {
+        background: unset;
+        height: 0px;
+    }
+
+    #right-picture-about {
+        background: unset;
+        height: 0px;
+    }
+
+    #about-school p {
+        margin: 30px 30px 5px;
+        font-family: Lato;
+        font-style: italic;
+        text-align: justify;
+    }
+
+    #about-school h2 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 300%;
+        font-weight: 400;
+        text-transform: uppercase; 
+        text-align: center;
+        letter-spacing: 1px;
+        color: #3a3a3a;
         margin-left: 20px;
+        margin-bottom: 40px;
+    }
+
+    .newsletter-form {
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        position: absolute;
+    }
+
+    .newsletter-form > h2 {
+        color: white;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 150%;
+        font-weight: 300;
+        margin-bottom: 10px;
+    
     }
 
 }
 
 
-@media screen and (max-width: 1000px) {
-   
- 
-#left-about {
-    float: unset;
-    height: 180px;
-    width: 100%;
-    margin: 50px auto;
-}
-
-#left-about-heading {
-    float: unset;
-    width: 100%;
-    line-height: 20px;
-    margin-bottom: 20px;
-}
-
-#center-about {
-    float: unset;
-    height: 180px;
-    width: 100%;
-    margin: 30px auto;
-}
-
-#center-about-heading {
-    float: unset;
-    width: 100%;
-    line-height: 20px;
-    margin-bottom: 20px;
-}
-
-#right-about {
-    float:  unset;
-    height: 180px;
-    width: 100%;
-    margin: 30px auto;
-}
-
-#right-about-heading {
-    float: unset;
-    width: 100%;
-    line-height: 20px;
-    margin-bottom: 20px;
-}
-
-#left-picture-about {
-    background: unset;
-    height: 0px;
-}
-
-#center-picture-about {
-    background: unset;
-    height: 0px;
-}
-
-#right-picture-about {
-    background: unset;
-    height: 0px;
-}
-
-#about-school p {
-    margin: 30px 30px 5px;
-    font-family: Lato;
-    font-style: italic;
-    text-align: justify;
-}
-
-#about-school h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 300%;
-    font-weight: 400;
-    text-transform: uppercase; 
-    text-align: center;
-    letter-spacing: 1px;
-    color: #3a3a3a;
-    margin-left: 20px;
-    margin-bottom: 40px;
-}
-
-#about-school h3 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 200%;
-    font-weight: 300;
-    text-transform: uppercase; 
-    text-align: left;
-    letter-spacing: 1px;
-    color: #3a3a3a;
-    margin-left: 20px;
-}
-
-
-.newsletter-form {
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    position: absolute;
-}
-
-.newsletter-form > h2 {
-    color: white;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 150%;
-    font-weight: 300;
-    margin-bottom: 10px;
-   
-}
-}
-
-
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
 
     #cover-text h2 {
         font-size: 200%;
@@ -554,15 +569,176 @@ footer {
         margin-bottom: 40px;
     }
     
-    #about-school h3 {
+
+    #left-about {
+        float: unset;
+        height: 190px;
+        width: 100%;
+        margin: 20px auto;
+    }
+
+
+    #center-about {
+        float: unset;
+        height: 170px;
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    #right-about {
+        float:  unset;
+        height: 170px;
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    #left-about-heading {
+        width: 100%;
+        float: left;
+        line-height: 10px;
+        clear: both;
         font-family: 'Roboto', sans-serif;
-        font-size: 100%;
+        font-size: 160%;
         font-weight: 300;
         text-transform: uppercase; 
         text-align: left;
         letter-spacing: 1px;
         color: #3a3a3a;
+        margin: 20px 0 30px 0;
+    } 
+
+    #right-about-heading {
+        width: 100%;
+        float: right;
+        line-height: 10px;
+        clear: both;
+        font-family: 'Roboto', sans-serif;
+        font-size: 160%;
+        font-weight: 300;
+        text-transform: uppercase; 
+        text-align: left;
+        letter-spacing: 1px;
+        color: #3a3a3a;
+        margin: 20px 0 30px 0;
+    }
+        
+    #center-about-heading {
+        width: 100%;
+        float: left;
+        line-height: 10px;
+        clear: both;
+        font-family: 'Roboto', sans-serif;
+        font-size: 160%;
+        font-weight: 300;
+        text-transform: uppercase; 
+        text-align: left;
+        letter-spacing: 1px;
+        color: #3a3a3a;
+        margin: 20px 0 30px 0;
+    }
+
+    #video-outer > iframe {
+        width: 300px;
+        height: 150px;        
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+
+    #cover-text h2 {
+        font-size: 180%;
+        font-weight: 500;
+    }
+    
+    #cover-text h4 {
+        font-size: 80%;
+        font-weight: 500;
+        
+    }
+
+    #about-school h2 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 180%;
+        font-weight: 400;
+        text-transform: uppercase; 
+        text-align: center;
+        letter-spacing: 1px;
+        color: #3a3a3a;
         margin-left: 20px;
-        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    
+
+    #left-about {
+        float: unset;
+        height: 230px;
+        width: 100%;
+        margin: 20px auto;
+    }
+
+
+    #center-about {
+        float: unset;
+        height: 190px;
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    #right-about {
+        float:  unset;
+        height: 190px;
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    #left-about-heading {
+        width: 100%;
+        float: left;
+        line-height: 10px;
+        clear: both;
+        font-family: 'Roboto', sans-serif;
+        font-size: 160%;
+        font-weight: 300;
+        text-transform: uppercase; 
+        text-align: left;
+        letter-spacing: 1px;
+        color: #3a3a3a;
+        margin: 20px 0 30px 0;
+    } 
+
+    #right-about-heading {
+        width: 100%;
+        float: right;
+        line-height: 10px;
+        clear: both;
+        font-family: 'Roboto', sans-serif;
+        font-size: 160%;
+        font-weight: 300;
+        text-transform: uppercase; 
+        text-align: left;
+        letter-spacing: 1px;
+        color: #3a3a3a;
+        margin: 20px 0 30px 0;
+    }
+        
+    #center-about-heading {
+        width: 100%;
+        float: left;
+        line-height: 10px;
+        clear: both;
+        font-family: 'Roboto', sans-serif;
+        font-size: 160%;
+        font-weight: 300;
+        text-transform: uppercase; 
+        text-align: left;
+        letter-spacing: 1px;
+        color: #3a3a3a;
+        margin: 20px 0 30px 0;
+    }
+
+    #video-outer > iframe {
+        width: 300px;
+        height: 150px;        
     }
 }
