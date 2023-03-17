@@ -2,39 +2,39 @@
 
 # Introduction
 
-A website designed to promote Yoga training online. It contains a main page with a link to E-learning website with Yoga lesson videos, a link to a future shop 
-(it doesn't exist for this project) and a page to sign up. If I wanted to further develop the website, I would require users to sign up first in order to see
-videos. I embeded a sample videos from youtube.com for project 1. However for the final website I would create my own videos and published them regularly.
+A website designed to promote Yoga training online. It contains a main page with a link to E-learning website with Yoga lesson videos and a page to sign up. If I wanted to further develop the website, I would require users to sign up first in order to see videos. I embeded a sample videos from youtube.com for the project. However for the final website I would create my own videos and published them regularly.
 
-As the shop requires coding skills, I have done it. However, I could develop it to sell youga related artefacts to monitize on the website. Perhaps I will do it
-for new projects.
+Below are responsive images of the three pages.
 
-![Responsive simulator image](assets/images/readme/Screenshot%202023-03-15%20at%2016.13.57.png)
-![Responsive simulator image](assets/images/readme/Screenshot%202023-03-15%20at%2016.23.10.png)
-![Responsive simulator image](assets/images/readme/Screenshot%202023-03-15%20at%2016.13.57.png)
+![Responsive simulator image](readme/index-reponsive.png)
+![Responsive simulator image](readme/video-responsive.png)
+![Responsive simulator image](readme/signup-responsive.png)
+
+Below is the online website hosted by github.com
 
 [Project Repository](https://github.com/ssmerd/online-yoga)
+
+To see the project code and README.md use this link
 
 [Live Site](https://ssmerd.github.io/online-yoga/)
 
 
-## Features
+# Features
 
-Main page
+## Main page
 
 * Navigation Bar
 
-    * Featured on all pages, full responsive navigation bar includes the website logo and links to home, e-learning videos, shop and signup page. 
+    * Featured on all pages, full responsive navigation bar includes the website logo and links to the home, e-learning videos and signup page. 
     All these features are identical on all pages to allow for easy navigation.
     * The navigation bar will allow users to esily navigate from page to page across all devices without having to revert back to the previous page via 'back' button
     * Home link allow to easily revert to the home page
     * E-learning link allow to see sample online yoga videos. Currenlty they are embeded from youtube.com.
     * To use E-learning link a user would have to sign up first. Hence there is a link to the signup page.
-    * Shop link may revert to a online shop website to monitize on the website by selling youga artefacts
 
 
 
-![Navigation Bar](assets/images/readme/Screenshot%202023-03-14%20at%2015.21.05.png)
+![Navigation Bar](readme/navigation-bar.png)
 
 * The landing page
 
@@ -42,7 +42,7 @@ Main page
     * This section introduces the user to Yoga Online explaining that the yoga videos are free for everyone and can be accessed from anywhere.
 
 
-![Landing Page](assets/images/readme/Screenshot%202023-03-14%20at%2015.30.05.png)
+![Landing Page](readme/landing-page.png)
 
 
 * The about section
@@ -52,7 +52,7 @@ Main page
 
 
 
-![Landing Page](assets/images/readme/Screenshot%202023-03-14%20at%2015.46.53.png)
+
 
 
 * Sign up for Newsletter section
