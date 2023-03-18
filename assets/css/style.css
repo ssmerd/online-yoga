@@ -29,8 +29,6 @@ h1 {
     margin-left: 20px;
 }
 
-
-
 /* navigation links */
 
 #menu {
@@ -60,7 +58,6 @@ h1 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
-
 
 /* hero image and cover text */
 
@@ -118,7 +115,6 @@ h1 {
     margin-left: 20px;
     margin-bottom: 40px;
 }
-
 
 #about-school p {
     margin: 10px 10px 10px 10px;
@@ -197,7 +193,6 @@ h1 {
     margin: 20px 0 50px 0;
 }
 
-
 #left-picture-about {
     background: url('../images/online-yoga-img1.jpg') no-repeat center center;
     height: 300px;
@@ -213,7 +208,6 @@ h1 {
     width: 33%;
     float: left;
 }
-
 
 #right-picture-about {
     background: url('../images/online-yoga-img3.jpg') no-repeat center center;
@@ -260,7 +254,6 @@ h1 {
     padding: 10px 20px;
 }
 
-
 .join-button {
         text-align: center;
         font-family: 'Roboto', sans-serif;
@@ -292,7 +285,6 @@ h1 {
     border-radius: 2px;
     cursor: pointer;
 }
-
 
 /* footer */
 
@@ -328,10 +320,7 @@ footer {
     font-weight: 300;
 }
 
-
 /* Sign Up section */
-
-
 
 .form-section {
     clear: left;
@@ -355,7 +344,6 @@ footer {
     color: #fafafa;
     margin-bottom: 20px;
 }
-
 
 .signup-text-input {
     background: transparent;
@@ -395,7 +383,6 @@ footer {
     
 }
 
-
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
@@ -405,7 +392,6 @@ footer {
 }
 
 #video-outer  {
-
     text-align: center;
 }
 
@@ -414,18 +400,16 @@ footer {
     height: 315px;
 }
 
-
+/* Rsponsive settings */
 
 @media screen and (max-width: 1000px) {
    
-    
     #left-about {
         float: unset;
         height: 170px;
         width: 100%;
         margin: 0 auto;
     }
-
 
     #center-about {
         float: unset;
@@ -486,8 +470,6 @@ footer {
         margin: 20px 0 30px 0;
     }
 
-
-
     #left-picture-about {
         background: unset;
         height: 0px;
@@ -535,13 +517,12 @@ footer {
         font-family: 'Roboto', sans-serif;
         font-size: 150%;
         font-weight: 300;
-        margin-bottom: 10px;
-    
+        margin-bottom: 10px;    
     }
-
 }
 
 @media screen and (max-width: 670px) {
+   
     h1 {
         letter-spacing: 2px;
     }
@@ -566,8 +547,7 @@ footer {
     
     #cover-text h4 {
         font-size: 100%;
-        font-weight: 500;
-        
+        font-weight: 500;   
     }
 
     #about-school h2 {
@@ -582,14 +562,12 @@ footer {
         margin-bottom: 40px;
     }
     
-
     #left-about {
         float: unset;
         height: 190px;
         width: 100%;
         margin: 20px auto;
     }
-
 
     #center-about {
         float: unset;
@@ -663,8 +641,7 @@ footer {
         border-radius: 2px;
         padding: 10px 20px;
     }
-    
-    
+        
     .join-button {
         text-align: center;
         font-family: 'Roboto', sans-serif;
@@ -680,18 +657,13 @@ footer {
         border-radius: 2px;
         cursor: pointer;
     }
-
-    
- 
 }
-
 
 @media screen and (max-width: 400px) {
 
     #menu {
         float: left;
-        margin-left: 5%;
-     
+        margin-left: 5%;     
      }
 
     #cover-text h2 {
@@ -702,7 +674,6 @@ footer {
     #cover-text h4 {
         font-size: 80%;
         font-weight: 500;
-        
     }
 
     #about-school h2 {
@@ -716,7 +687,6 @@ footer {
         margin-left: 20px;
         margin-bottom: 40px;
     }
-    
 
     #left-about {
         float: unset;
@@ -724,7 +694,6 @@ footer {
         width: 100%;
         margin: 20px auto;
     }
-
 
     #center-about {
         float: unset;
