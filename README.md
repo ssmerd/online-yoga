@@ -51,7 +51,7 @@ To see the project code and README.md use this link
     * Its goal is to attract users to login, watch and shop on the website
 
 
-
+![Landing Page](readme/about-page.png)
 
 
 
@@ -59,13 +59,13 @@ To see the project code and README.md use this link
 
     * The goal of this section is to allow user to sign up for the newsletter
 
-![Landing Page](assets/images/readme/Screenshot%202023-03-14%20at%2015.55.18.png)
+![Landing Page](readme/newsletter-page.png)
 
 * Footer section
 
     * The goal of this section is to redirect a user to social media channels related to the website.
 
-![Landing Page](assets/images/readme/Screenshot%202023-03-14%20at%2015.58.42.png)
+![Landing Page](readme/social-media-page.png)
 
 
 E-Learning page
@@ -74,19 +74,18 @@ E-Learning page
 
 * Sample videos
 
-    * Complete course of yoga. I have embeded a sample youtube videos.
+    * The complete course of yoga. I have embeded sample youtube videos.
 
-![Landing Page](assets/images/readme/Screenshot%202023-03-14%20at%2016.03.26.png)
+![Landing Page](readme/elearning-page.png)
 
 * Sign Up page
 
     * This page allows users to sign up to the website in order to use videos
 
-![Landing Page](assets/images/readme/Screenshot%202023-03-14%20at%2016.22.02.png)
+![Landing Page](readme/signup-page.png)
 
-* Shop page
 
-    * It isn't implemented at this stage.
+
 
 
 # UX
@@ -104,7 +103,7 @@ As a user:
 * I want to watch yoga classes online
 * I want to sign up to the site
 * I want to log in to the site to watch videos
-* I want to access the shop to buy yoga artefacts
+
 
 As the site administrator:
 
@@ -121,45 +120,61 @@ Below are wireframes create for the proect
 
 * Main page
 
-![Main Page](assets/images/readme/Screenshot%202023-03-14%20at%2017.13.02.png)
+![Main Page](readme/home-page-wireframe.png)
 
 * Video page
 
-![Main Page](assets/images/readme/Screenshot%202023-03-14%20at%2017.39.01.png)
+![Video Page](readme/elearning-page-wireframe.png)
 
-* Video page
+* Signup page
 
-![Sign Up](assets/images/readme/Screenshot%202023-03-14%20at%2017.56.58.png)
+![Sign Up](readme/signup-page-wireframe.png)
 
 
 # Testing
 
-* ### Functional testing
+
+* ### User and responsive design testing
 
 | Test              | Outcome |
 |-------------------|---------------|
 |All navigation links take user to correct page|pass|
-|All external links open new, correct page|pass|
 |Footer navigation and social & social links load correct pages|pass|
 |Content reformats on smaller screens|pass|
 |Newsletter form submits correctly|pass|
-|Newlstter form prevents wrong data types|pass|
+|Newsletter form prevents wrong data types|pass|
+|Signup form submits correctly|pass|
 
-
-* ### User and responsive design testing
-
-I thorouglhy tested the website and its responsivness with Google Inspect functionality and 
-    
-    https://ui.dev/amiresponsive?url=https://ssmerd.github.io/online-yoga/
-
-All user stories were tested and no faults were found. All links are working fine. The link to the Shop is redirecting to the code institute website.
+All user stories were tested and no faults were found. All links are working fine.
 I used a sample youtube videos, however, in the real website I would use my own. Also to access the videos, a user would have to be signed up.
 Initially I had issues with reposnsivess but I managed to find css settings to make it look well.  This allowed me to adjust certain setings so the websites 
 looked good on different devices. 
+
+I thorouglhy tested the website and its responsivness with Google Inspect functionality and ui.dev/amiresponsive tool. This proved the most troublesome in the project. As advised by me mentor I should have built the mobile version first and then add functionality for bigger screen sizes, as opposed to bulding the destop version first.
+
+
     
 * ### Code and CSS validators
 
 HTML and CSS validators were used to test the pages and css validity. No issues were found.
+
+* Home page html validation results
+
+![Home page HTML checker](readme/home-page-html-checker.png)
+
+* E-learning  page html validation results
+
+![E-learning page HTML checker](readme/video-page-html-checker.png)
+
+* Signup page html validation results
+
+![Signup page HTML checker](readme/signup-page-html-checker.png)
+
+
+* CSS validation results
+
+![CSS checker](readme/css-checker.png)
+
 
 
 ## Deployment
@@ -168,8 +183,36 @@ The yoga online page was deployed to GitHub. Below is the link:
 
 [Live Site](https://ssmerd.github.io/online-yoga/)
 
+This site was deployed to GitHub pages. The steps to deploy are as follows:
+
+*   In the GitHub reposotory, navigate to the Settings tab
+*   From the source sectiondrop-down menu, select the Master Branch
+*   Once the Master Branch has been selected, the page will be automatically refreshed wit hthe detail ribbon display to indicate the successful deployment
+
+# Cloning the GitHub repo
+
+This repo can be cloned as follows:
+
+*   On the main repo page [Repo page] (https://github.com/ssmerd/online-yoga) navigate to the Code tab
+*   Click Code buton and copy the git url or download the zip file
+*   You can create your own repository to work on the project
+
+# Working with GitPod
+
+I used GitPod to work on the project. 
+
+*   First I installed a GitHub GitPod extension in Chrome. This allows to create the workspace to work on the project on the repository
+*   I usually starte by pressing GitPod extension as my GitPod workspaces usually time out.
+
+[GitPod extension] (https://chrome.google.com/webstore/detail/gitpod-always-ready-to-co/dodmmooeoklaejobgleioelladacbeki)
 
 # Citation of Sources
+
+
+* ### Inspiration
+
+The project was inspired by the code institute Love Running project.
+
 
 * ### HTML and CSS 
 
@@ -182,17 +225,27 @@ https://stackoverflow.com/
 https://balsamiq.cloud
 
 * ### Responsivness testing
+
 https://ui.dev/amiresponsive
 
 Chrome Inspect
 
 * ### HTML and CSS validations
 
-https://w3c.github.io/developers/tools/
+https://validator.w3.org/
+https://jigsaw.w3.org/css-validator/
 
 * ### Fonts and icons
 
+Goole Fonts and Icons
+
 https://fonts.google.com/
+
+
+Font Awsome
+
+https://fontawesome.com/
+
 
 * ### Media
 
