@@ -1,4 +1,24 @@
+<a name="top"></a>
+
 # Yoga Online 
+
+## Contents
+
+- [Introduction](#Introduction)
+- [Features](#Features)
+    - [Main Page](#main-page)
+- [UX](#ux)
+    - [Site Goals](#site-goals)
+    - [Typography](#typography)
+    - [Wireframes](#wireframes)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Cloning the GitHub Repo](#cloning-the-github-repo)
+- [Working with GitPod](#working-with-gitpod)
+- [Citation of Sources](#citation-of-sources)
+
+<br>
+<br>
 
 # Introduction
 
@@ -18,10 +38,12 @@ To see the project code and README.md use this link
 
 [Live Site](https://ssmerd.github.io/online-yoga/)
 
+<br>
+<br>
 
 # Features
 
-## Main page
+## Main Page
 
 * Navigation Bar
 
@@ -85,33 +107,41 @@ E-Learning page
 ![Landing Page](readme/signup-page.png)
 
 
-
-
+<br>
+<br>
 
 # UX
 
-### Site Goals
+## Site Goals
 
 The goal of the website is to attract users to watch yoga classes and buy some youga artefacts in the online shop (the shop doesn't exist yet).
 This website is easy to navigate as well as aesthetically pleasing. Administrator should be able to easily add videos. The youga classes should be 
 avaialable post signing up to the website.
 
-### User stories
+## User Stories
 
 As a user:
 
-* I want to watch yoga classes online
-* I want to sign up to the site
+* I want to watch and lear yoga online
+* I want to sign up to the site in order to access videos
 * I want to log in to the site to watch videos
+* I want to get newsletter
 
 
 As the site administrator:
 
 * I want to be able to add new videos
 * I want to update the website as little as possible
+* I want to gather user emails to send them my weekly newsletter
+* I want user to get familair with my website
+* I want user to access my youga artefacts shop
 
+## Typography
 
+All fonts were sourced from Google Fonts:
 
+ - Roboto used for the nav, about, newsletter and signup form sections
+ - Mynerve used for the logo in the header
 
 ## Wireframes
 
@@ -130,9 +160,10 @@ Below are wireframes create for the proect
 
 ![Sign Up](readme/signup-page-wireframe.png)
 
+<br>
+<br>
 
 # Testing
-
 
 * ### User and responsive design testing
 
@@ -152,32 +183,36 @@ looked good on different devices.
 
 I thorouglhy tested the website and its responsivness with Google Inspect functionality and ui.dev/amiresponsive tool. This proved the most troublesome in the project. As advised by me mentor I should have built the mobile version first and then add functionality for bigger screen sizes, as opposed to bulding the destop version first.
 
-
     
 * ### Code and CSS validators
 
-HTML and CSS validators were used to test the pages and css validity. No issues were found.
+HTML and CSS validators were used to test the pages and css validity. No errors were returned for each page when passing through the official W3C validators.
 
 * Home page html validation results
 
-![Home page HTML checker](readme/home-page-html-checker.png)
+    - [Home Page](https://validator.w3.org/nu/?doc=https://ssmerd.github.io/online-yoga/)
 
 * E-learning  page html validation results
 
-![E-learning page HTML checker](readme/video-page-html-checker.png)
+    - [E-learning Page](https://validator.w3.org/nu/?doc=https://ssmerd.github.io/online-yoga/video.html)
 
 * Signup page html validation results
 
-![Signup page HTML checker](readme/signup-page-html-checker.png)
-
+    - [Signup Page](https://validator.w3.org/nu/?doc=https://ssmerd.github.io/online-yoga/signup.html)
 
 * CSS validation results
 
-![CSS checker](readme/css-checker.png)
+    - [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https://ssmerd.github.io/online-yoga/index.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+* Accessibility
+
+The accessibility of each of the main pages was checked using the lighthouse tool in devtools with a score within the 90 - 100% bracket for all metrics.
 
 
+<br>
+<br>
 
-## Deployment
+# Deployment
 
 The yoga online page was deployed to GitHub. Below is the link:
 
@@ -186,8 +221,12 @@ The yoga online page was deployed to GitHub. Below is the link:
 This site was deployed to GitHub pages. The steps to deploy are as follows:
 
 *   In the GitHub reposotory, navigate to the Settings tab
-*   From the source sectiondrop-down menu, select the Master Branch
+*   From the source section drop-down menu, select the Master Branch
 *   Once the Master Branch has been selected, the page will be automatically refreshed wit hthe detail ribbon display to indicate the successful deployment
+
+
+<br>
+<br>
 
 # Cloning the GitHub repo
 
@@ -197,6 +236,9 @@ This repo can be cloned as follows:
 *   Click Code buton and copy the git url or download the zip file
 *   You can create your own repository to work on the project
 
+<br>
+<br>
+
 # Working with GitPod
 
 I used GitPod to work on the project. 
@@ -205,6 +247,9 @@ I used GitPod to work on the project.
 *   I usually starte by pressing GitPod extension as my GitPod workspaces usually time out.
 
 [GitPod extension] (https://chrome.google.com/webstore/detail/gitpod-always-ready-to-co/dodmmooeoklaejobgleioelladacbeki)
+
+<br>
+<br>
 
 # Citation of Sources
 
@@ -217,6 +262,8 @@ The project was inspired by the code institute Love Running project.
 * ### HTML and CSS 
 
 https://www.w3schools.com/
+
+https://developer.mozilla.org/
 
 https://stackoverflow.com/
 
@@ -259,6 +306,11 @@ Videos in the E-learning page come from:
 
 https://www.youtube.com/results?search_query=yoga+with+adriene+
 
+* ### Form testing
+
+https://httpbin.org/post
+
+<br><br>
 
 # Future Featuers
 
@@ -272,3 +324,7 @@ Also I would add a link to a donate website.
 
 * Mentor - Chris Quinn
 * Cohort Facilitator - Special credit to Alan Bushell who gave great support and tips when testing the website.
+
+
+<br><br>
+<a href="#top">BACK TO TOP 🔼</a>
