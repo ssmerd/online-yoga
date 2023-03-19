@@ -68,7 +68,7 @@
             <p> 
                 In our yoga shop you will find not only yoga accessories, but also courses, workshops and training. We also have original instructor-led classes that will allow you to keep participating in classes and get individual corrections from our side.
                 <!-- The shop link points currently to code institute website. -->
-                <a href="http://codeinstitute.net">Our Shop</a>
+                <a href="http://codeinstitute.net" target="_blank" aria-label="Open the shop page">Our Shop</a>
             </p>    
             
         </div>
@@ -96,7 +96,8 @@
 
      <section id="newsletter">
         <!-- There is no program behind the form. It shows the parameters involved. -->
-        <form method="POST" action="https://formdump.codeinstitute.net/" class="newsletter-form">
+        <!-- <form method="POST" action="https://formdump.codeinstitute.net/" class="newsletter-form"> -->
+        <form method="POST" action="https://httpbin.org/post" class="newsletter-form">
             <h2>Sign up for newsletter!</h2>
             <input class="text-input" type="email" id="email" name="email_address" placeholder="Enter your email address" required>
             <input class="join-button" type="submit" value="Join!">

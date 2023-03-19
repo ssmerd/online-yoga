@@ -136,7 +136,7 @@ h1 {
     line-height: 20px;
     clear: both;
     font-family: 'Roboto', sans-serif;
-    font-size: 250%;
+    font-size: 230%;
     font-weight: 300;
     text-transform: uppercase; 
     text-align: left;
@@ -157,7 +157,7 @@ h1 {
     line-height: 20px;
     clear: both;
     font-family: 'Roboto', sans-serif;
-    font-size: 250%;
+    font-size: 230%;
     font-weight: 300;
     text-transform: uppercase; 
     text-align: left;
@@ -184,13 +184,14 @@ h1 {
     line-height: 20px;
     clear: both;
     font-family: 'Roboto', sans-serif;
-    font-size: 250%;
+    font-size: 230%;
     font-weight: 300;
     text-transform: uppercase; 
     text-align: left;
     letter-spacing: 1px;
     color: #3a3a3a;
     margin: 20px 0 50px 0;
+    padding-left: 10px;
 }
 
 #left-picture-about {
@@ -255,19 +256,19 @@ h1 {
 }
 
 .join-button {
-        text-align: center;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300;
-        font-size: large;
-        width: 45%;
-        border: none;
-        outline: none;
-        background: transparent;
-        background-color: black;
-        padding: 10px 20px;
-        color: white;
-        border-radius: 2px;
-        cursor: pointer;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: large;
+    width: 45%;
+    border: none;
+    outline: none;
+    background: transparent;
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
 }
    
 .join-button:hover {
@@ -401,6 +402,8 @@ footer {
 }
 
 /* Rsponsive settings */
+
+
 
 @media screen and (max-width: 1000px) {
    
