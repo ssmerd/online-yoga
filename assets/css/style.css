@@ -62,7 +62,7 @@ h1 {
 /* hero image and cover text */
 
 #hero-outer {
-    height: 500px;
+    /* height: 500px; */
     width: 100%;
     clear: both;
     position: relative;
@@ -112,7 +112,7 @@ h1 {
     text-align: center;
     letter-spacing: 1px;
     color: #3a3a3a;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     margin-bottom: 40px;
 }
 
@@ -503,7 +503,7 @@ footer {
         text-align: center;
         letter-spacing: 1px;
         color: #3a3a3a;
-        margin-left: 20px;
+        /* margin-left: 20px; */
         margin-bottom: 40px;
     }
 
@@ -543,8 +543,12 @@ footer {
 
 @media screen and (max-width: 600px) {
 
+    #hero-image {
+        height: 350px;
+    }
+
     #cover-text h2 {
-        font-size: 200%;
+        font-size: 180%;
         font-weight: 500;
     }
     
@@ -561,7 +565,7 @@ footer {
         text-align: center;
         letter-spacing: 1px;
         color: #3a3a3a;
-        margin-left: 20px;
+        /* margin-left: 20px; */
         margin-bottom: 40px;
     }
     
@@ -669,13 +673,17 @@ footer {
         margin-left: 5%;     
      }
 
+    #hero-image {
+        height: 300px;
+    }
+
     #cover-text h2 {
-        font-size: 180%;
+        font-size: 150%;
         font-weight: 500;
     }
     
     #cover-text h4 {
-        font-size: 80%;
+        font-size: 60%;
         font-weight: 500;
     }
 
@@ -687,7 +695,7 @@ footer {
         text-align: center;
         letter-spacing: 1px;
         color: #3a3a3a;
-        margin-left: 20px;
+        /* margin-left: 0; */
         margin-bottom: 40px;
     }
 

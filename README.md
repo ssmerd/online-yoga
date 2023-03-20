@@ -14,6 +14,7 @@
 - [Testing](#testing)
 - [Deployment](#deployment)
 - [Cloning the GitHub Repo](#cloning-the-github-repo)
+- [Forking the GitHub Repo](#forking-the-github-repo)
 - [Working with GitPod](#working-with-gitpod)
 - [Citation of Sources](#citation-of-sources)
 
@@ -26,7 +27,7 @@ A website designed to promote Yoga training online. It contains a main page with
 
 Below are responsive images of the three pages.
 
-![Responsive simulator image](readme/index-reponsive.png)
+![Responsive simulator image](readme/index-responsive.png)
 ![Responsive simulator image](readme/video-responsive.png)
 ![Responsive simulator image](readme/signup-responsive.png)
 
@@ -232,9 +233,24 @@ This site was deployed to GitHub pages. The steps to deploy are as follows:
 
 This repo can be cloned as follows:
 
-*   On the main repo page [Repo page] (https://github.com/ssmerd/online-yoga) navigate to the Code tab
-*   Click Code buton and copy the git url or download the zip file
-*   You can create your own repository to work on the project
+*   On the main repo page [Repo page](https://github.com/ssmerd/online-yoga) navigate to the Code tab
+*   Select the way you want to clone using HTTPs, SSH or GitHub CLI and click the copy button
+*   Open Git Bash ot Terminal
+*   In your terminal, in a chosen directory paste the command:
+    *      https://github.com/ssmerd/online-yoga.git
+*   Press Enter to create your local clone
+
+<br>
+<br>
+
+# Forking the GitHub repo
+
+In order to create a copy of the orginal repository on our GitHub account to view or edit it without affecting the orginal owner's repository we can fork it.
+
+
+*   At the top of the Repository [Repo page](https://github.com/ssmerd/online-yoga), above the Settings button, locate the Fork button 
+*   Once clicked, it will create aa copy of the original repository in your own GitHub account
+
 
 <br>
 <br>
