@@ -23,7 +23,7 @@
 
 # Introduction
 
-A website designed to promote Yoga training online. It contains a main page with a link to E-learning website with Yoga lesson videos and a page to sign up. If I wanted to further develop the website, I would require users to sign up first in order to see videos. I embeded a sample videos from youtube.com for the project. However for the final website I would create my own videos and published them regularly.
+A website designed to promote Yoga training online. It contains a main page with a link to an E-learning website with Yoga lesson videos and a page to sign up. If I wanted to further develop the website, I would require users to sign up first in order to see videos. I embedded sample videos from youtube.com for the project. However for the final website I would create my own videos and publish them regularly.
 
 Below are responsive images of the three pages.
 
@@ -48,21 +48,22 @@ To see the project code and README.md use this link
 
 * Navigation Bar
 
-    * Featured on all pages, full responsive navigation bar includes the website logo and links to the home, e-learning videos and signup page. 
+    * Featured on all pages, the full responsive navigation bar includes the website logo and links to the home, e-learning videos and signup page. 
     All these features are identical on all pages to allow for easy navigation.
-    * The navigation bar will allow users to esily navigate from page to page across all devices without having to revert back to the previous page via 'back' button
+    * The navigation bar will allow users to easily navigate from page to page across all devices without having to revert back to the previous page via 'back' button
     * Home link allow to easily revert to the home page
-    * E-learning link allow to see sample online yoga videos. Currenlty they are embeded from youtube.com.
-    * To use E-learning link a user would have to sign up first. Hence there is a link to the signup page.
+    * The E-learning link allow you to see sample online yoga videos. Currently they are embedded from youtube.com.
+    * To use the E-learning link a user would have to sign up first. Hence there is a link to the signup page.
 
 
 
 ![Navigation Bar](readme/navigation-bar.png)
 
+
 * The landing page
 
     * The landing page image includes a photograph with a text overlay to allow the user to learn what the page is about.
-    * This section introduces the user to Yoga Online explaining that the yoga videos are free for everyone and can be accessed from anywhere.
+    * This section introduces users to Yoga Online explaining that the yoga videos are free for everyone and can be accessed from anywhere.
 
 
 ![Landing Page](readme/landing-page.png)
@@ -97,7 +98,7 @@ E-Learning page
 
 * Sample videos
 
-    * The complete course of yoga. I have embeded sample youtube videos.
+    * The complete course of yoga. I have embedded sample youtube videos.
 
 ![Landing Page](readme/elearning-page.png)
 
@@ -115,15 +116,15 @@ E-Learning page
 
 ## Site Goals
 
-The goal of the website is to attract users to watch yoga classes and buy some youga artefacts in the online shop (the shop doesn't exist yet).
-This website is easy to navigate as well as aesthetically pleasing. Administrator should be able to easily add videos. The youga classes should be 
-avaialable post signing up to the website.
+The goal of the website is to attract users to watch yoga classes and buy some yoga artefacts in the online shop (the shop doesn't exist yet).
+This website is easy to navigate as well as aesthetically pleasing. Administrator should be able to easily add videos. The yoga classes should be 
+available post signing up to the website.
 
 ## User Stories
 
 As a user:
 
-* I want to watch and lear yoga online
+* I want to watch and learn yoga online
 * I want to sign up to the site in order to access videos
 * I want to log in to the site to watch videos
 * I want to get newsletter
@@ -134,8 +135,8 @@ As the site administrator:
 * I want to be able to add new videos
 * I want to update the website as little as possible
 * I want to gather user emails to send them my weekly newsletter
-* I want user to get familair with my website
-* I want user to access my youga artefacts shop
+* I want user to get familiar with my website
+* I want user to access my yoga artefacts shop
 
 ## Typography
 
@@ -147,7 +148,7 @@ All fonts were sourced from Google Fonts:
 ## Wireframes
 
 
-Below are wireframes create for the proect
+Below are wireframes create for the project
 
 * Main page
 
@@ -179,10 +180,10 @@ Below are wireframes create for the proect
 
 All user stories were tested and no faults were found. All links are working fine.
 I used a sample youtube videos, however, in the real website I would use my own. Also to access the videos, a user would have to be signed up.
-Initially I had issues with reposnsivess but I managed to find css settings to make it look well.  This allowed me to adjust certain setings so the websites 
+Initially I had issues with reposnsivess but I managed to find css settings to make it look well.  This allowed me to adjust certain settings so the websites 
 looked good on different devices. 
 
-I thorouglhy tested the website and its responsivness with Google Inspect functionality and ui.dev/amiresponsive tool. This proved the most troublesome in the project. As advised by me mentor I should have built the mobile version first and then add functionality for bigger screen sizes, as opposed to bulding the destop version first.
+I thoroughly tested the website and its responsiveness with Google Inspect functionality and ui.dev/amiresponsive tool. This proved the most troublesome in the project. As advised by me mentor I should have built the mobile version first and then add functionality for bigger screen sizes, as opposed to building the desktop version first.
 
     
 * ### Code and CSS validators
@@ -221,9 +222,9 @@ The yoga online page was deployed to GitHub. Below is the link:
 
 This site was deployed to GitHub pages. The steps to deploy are as follows:
 
-*   In the GitHub reposotory, navigate to the Settings tab
+*   In the GitHub repository, navigate to the Settings tab
 *   From the source section drop-down menu, select the Master Branch
-*   Once the Master Branch has been selected, the page will be automatically refreshed wit hthe detail ribbon display to indicate the successful deployment
+*   Once the Master Branch has been selected, the page will be automatically refreshed with the detail ribbon display to indicate the successful deployment
 
 
 <br>
@@ -245,11 +246,11 @@ This repo can be cloned as follows:
 
 # Forking the GitHub repo
 
-In order to create a copy of the orginal repository on our GitHub account to view or edit it without affecting the orginal owner's repository we can fork it.
+In order to create a copy of the original repository on our GitHub account to view or edit it without affecting the original owner's repository we can fork it.
 
 
 *   At the top of the Repository [Repo page](https://github.com/ssmerd/online-yoga), above the Settings button, locate the Fork button 
-*   Once clicked, it will create aa copy of the original repository in your own GitHub account
+*   Once clicked, it will create as a copy of the original repository in your own GitHub account
 
 
 <br>
@@ -260,7 +261,7 @@ In order to create a copy of the orginal repository on our GitHub account to vie
 I used GitPod to work on the project. 
 
 *   First I installed a GitHub GitPod extension in Chrome. This allows to create the workspace to work on the project on the repository
-*   I usually starte by pressing GitPod extension as my GitPod workspaces usually time out.
+*   I usually start by pressing the GitPod extension as my GitPod workspaces usually time out.
 
 [GitPod extension] (https://chrome.google.com/webstore/detail/gitpod-always-ready-to-co/dodmmooeoklaejobgleioelladacbeki)
 
@@ -328,7 +329,7 @@ https://httpbin.org/post
 
 <br><br>
 
-# Future Featuers
+# Future Features
 
 Access to the videos would be secured by logging to website. First a user would have to sign up. Currently I don't have skills to do that.
 
