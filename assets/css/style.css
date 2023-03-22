@@ -62,7 +62,6 @@ h1 {
 /* hero image and cover text */
 
 #hero-outer {
-    /* height: 500px; */
     width: 100%;
     clear: both;
     position: relative;
@@ -112,7 +111,6 @@ h1 {
     text-align: center;
     letter-spacing: 1px;
     color: #3a3a3a;
-    /* margin-left: 20px; */
     margin-bottom: 40px;
 }
 
@@ -169,7 +167,6 @@ h1 {
 #right-about a {
     font-family: 'Roboto', sans-serif;
     color: #3a3a3a;
-
 }
 
 #center-about {
@@ -200,7 +197,6 @@ h1 {
     width: 33%;
     clear: both;
     float: left;
- 
 }
 
 #center-picture-about {
@@ -403,8 +399,6 @@ footer {
 
 /* Rsponsive settings */
 
-
-
 @media screen and (max-width: 1000px) {
    
     #left-about {
@@ -503,7 +497,6 @@ footer {
         text-align: center;
         letter-spacing: 1px;
         color: #3a3a3a;
-        /* margin-left: 20px; */
         margin-bottom: 40px;
     }
 
@@ -565,7 +558,6 @@ footer {
         text-align: center;
         letter-spacing: 1px;
         color: #3a3a3a;
-        /* margin-left: 20px; */
         margin-bottom: 40px;
     }
     
