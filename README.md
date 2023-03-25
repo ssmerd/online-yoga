@@ -210,6 +210,9 @@ HTML and CSS validators were used to test the pages and css validity. No errors 
 
 The accessibility of each of the main pages was checked using the lighthouse tool in devtools with a score within the 90 - 100% bracket for all metrics.
 
+<br>
+
+![Lighthouse](readme/lighthouse.png)
 
 <br>
 <br>
@@ -273,7 +276,7 @@ I used GitPod to work on the project.
 
 * ### Inspiration
 
-The project was inspired by the code institute Love Running project.
+The project was inspired by the code institute Love Running project. I used social media code from the Love Running project.
 
 
 * ### HTML and CSS 
